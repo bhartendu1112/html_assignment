@@ -1,7 +1,73 @@
 /* Our CSS file. */
 
 
+
 .container, .content {
-width: 100%;
-height: 100%;
-}
+    width: 100%;
+    height: 100%;
+    }
+    .header{
+        display:flex;
+        justify-content: space-between;
+        align-items: center;
+        width:100%;
+        height:100px;
+        background-color:aquamarine;
+    }
+    .search-bar{
+        margin-right: 5px;    
+    } 
+     .navbar{
+        display: flex;
+        justify-content: space-evenly;
+        width:100%;
+        height:60px;
+        border: 1px solid black;
+        margin-top: 5px;
+    }
+    a{
+        margin-top: 30px;
+    }
+    .row{
+        display:flex;
+        justify-content:space-between;
+        margin: 5px 0px;
+        width:100%;
+        height:600px;
+    }
+    .sidebar-1,.sidebar-2{
+    
+        width:10%;
+        height:100%;
+        border:1px solid royalblue;
+    
+    }   
+    #right-sidebar-menu,#left-sidebar-menu{
+        padding:0px 5px;
+    }
+    .para{
+        list-style : none;
+        margin-top:35px;
+    }
+    .body{
+        margin: 0px 7px;
+        width:80%;
+        height:100%;
+        border:1px solid royalblue;
+    
+    }
+    #main-content-section{
+        display:flex;
+        justify-content: space-between;
+        padding: 20px;
+    }
+    .post-img{
+        width:250px;
+        height: 250px;
+    }
+    #page-footer{
+        margin-top: 10px;
+        width:100%;
+        height:133px;
+        border: 1px solid black;
+    } 
